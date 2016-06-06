@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="fst-2.43">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.ruedigermoeller/fst/2.43/b333c4ae03bef3220f3aeb0027ed852352bdc364/fst-2.43.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.ruedigermoeller/fst/2.43/c46e5a3f48e94a2b6c032104b3f339744f278d6f/fst-2.43-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

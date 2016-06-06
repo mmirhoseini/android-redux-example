@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.rheinfabrik.trackdux"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="23" />
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="de.rheinfabrik.trackdux.TrackDuxApplication"
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- Popular Movies -->
+        <activity
+            android:name="de.rheinfabrik.trackdux.ui.movies.PopularMoviesActivity"
+            android:label="Popular Movies" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Movie Details -->
+        <activity
+            android:name="de.rheinfabrik.trackdux.ui.details.MovieDetailsActivity"
+            android:label="Details" >
+        </activity>
+    </application>
+
+</manifest>
